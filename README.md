@@ -1,6 +1,6 @@
-# Email Signature Generator ~ Generate a custom email signature fluently and on the go!
+# Email Signature Generator
 
-This simple package helps you generate a custom email signature adding up a more professional look and feel to your business emails.
+The simplist way to create a custom email signature fluently and on the go, adding up a more professional look and feel to your business emails.
 
 ## Component and Props:
 
