@@ -21,7 +21,7 @@ The main and only component at this moment is Signature component with the props
 ## Example:
 
 ```
-<Signature2
+<Signature
 	logo='https://cdn.worldvectorlogo.com/logos/super-ecran.svg'
 	facebook='https://www.facebook.com'
 	instagram='https://instagram.com'
