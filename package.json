@@ -1,8 +1,14 @@
 {
 	"name": "email-signature-generator",
 	"version": "0.1.6",
+	"private": "false",
 	"author": "iamshour",
 	"description": "Generate a custom email signature fluently and on the go!",
+	"babel": {
+		"presets": [
+			"@babel/preset-react"
+		]
+	},
 	"main": "dist/index.js",
 	"module": "dist/index.js",
 	"files": [
@@ -11,6 +17,7 @@
 	"devDependencies": {
 		"@babel/cli": "^7.17.10",
 		"@babel/core": "^7.18.5",
+		"@babel/preset-react": "^7.17.12",
 		"react": "^18.2.0",
 		"react-dom": "^18.2.0",
 		"react-scripts": "1.1.4",
@@ -23,9 +30,6 @@
 	"scripts": {
 		"start": "react-scripts start",
 		"build": "rimraf dist && NODE_ENV=production babel src/lib --out-dir dist --copy-files"
-	},
-	"dependencies": {
-		"babel-preset-react-app": "^10.0.1"
 	},
 	"repository": {
 		"type": "git",
