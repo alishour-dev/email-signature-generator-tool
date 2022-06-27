@@ -4,7 +4,9 @@ The simplist way to create a custom email signature fluently and on the go, addi
 
 ## Component and Props:
 
-The main and only component at this moment is Signature component with the props below:
+There are two main components at this moment, Signature & Signature2 components with the following props for each:
+
+### Signature Component:
 
 | Props                  |                            Description                             |
 | ---------------------- | :----------------------------------------------------------------: |
@@ -18,19 +20,41 @@ The main and only component at this moment is Signature component with the props
 | email: String          |                         Your email address                         |
 | website: String        |                         Your website link                          |
 
+### Signature2 Component:
+
+| Props                  |                            Description                             |
+| ---------------------- | :----------------------------------------------------------------: |
+| logo: String           | https link for an avatar, Logo, or any important image to display. |
+| linkedin: String       |               https link for your linkedin profile.                |
+| personName: String     |       Your name, which will be displayed on top (right cell)       |
+| personPosition: String |                   Your current business position                   |
+| tel: String            |                         Your mobile number                         |
+| email: String          |                         Your email address                         |
+| website: String        |                         Your website link                          |
+
 ## Example:
 
 ```
-<Signature
-	logo='https://cdn.worldvectorlogo.com/logos/super-ecran.svg'
-	facebook='https://www.facebook.com'
-	instagram='https://instagram.com'
-	linkedIn='https://linkedin.com'
-	personName='My Full name'
-	personPosition='My business position'
-	tel='9678975432'
-	email='myemaildomainname@domain.com'
-	website='www.mywebsite.com'
+	<Signature
+		logo='https://cdn.worldvectorlogo.com/logos/super-ecran.svg'
+		facebook='https://www.facebook.com'
+		instagram='https://instagram.com'
+		linkedIn='https://linkedin.com'
+		personName='My Full name'
+		personPosition='My business position'
+		tel='9678975432'
+		email='myemaildomainname@domain.com'
+		website='www.mywebsite.com'
+	/>
+
+	<Signature2
+		logo='https://cdn.worldvectorlogo.com/logos/super-ecran.svg'
+		linkedIn='https://linkedin.com'
+		personName='My Full name'
+		personPosition='My business position'
+		tel='9678975432'
+		email='myemaildomainname@domain.com'
+		website='www.mywebsite.com'
 	/>
 ```
 

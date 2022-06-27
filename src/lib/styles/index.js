@@ -80,46 +80,106 @@ export const styles = {
 	},
 }
 
-// export const styles = {
-// 	tableWrapper: {
-// 		display: "flex",
-// 		justifyContent: "center",
-// 		alignItems: "center",
-// 		height: "100vh",
-// 	},
-// 	tableCard: {
-// 		width: "550px",
-// 		height: "200px",
-// 		backgroundColor: "trasnparent",
-// 		verticalAlign: "-webkit-baseline-middle",
-// 		fontSize: "medium",
-// 		border: "1px solid blue",
-// 		borderCollapse: "collapse",
-// 	},
-// 	logoCell: {
-// 		width: 200,
-// 	},
-// 	logo: {
-// 		width: 120,
-// 	},
-// 	middleCell: {
-// 		position: "relative",
-// 		width: "auto",
-// 	},
-// 	vLine: {
-// 		position: "absolute",
-// 		width: "10px",
-// 		height: "200px",
-// 		left: "50%",
-// 		top: "50%",
-// 		transform: "translate(-50%, -50%)",
-// 		backgroundColor: "blue",
-// 		borderRadius: "10px",
-// 	},
-// 	title: {
-// 		fontSize: "24px",
-// 		fontWeight: "bold",
-// 		marginTop: "5px",
-// 		marginBottom: "10px",
-// 	},
-// }
+export const styles2 = {
+	mainStyles: {
+		fontFamily:
+			"-apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue', 'sans-serif'",
+	},
+	tableCard: {
+		backgroundColor: "trasnparent",
+		verticalAlign: "-webkit-baseline-middle",
+		fontSize: "medium",
+		borderCollapse: "separate",
+	},
+	leftCell: {
+		verticalAlign: "middle",
+	},
+	leftSubGrid: {
+		verticalAlign: "-webkit-baseline-middle",
+		fontSize: "medium",
+	},
+	imgCell: {
+		textAlign: "center",
+	},
+	mainImg: {
+		width: 132,
+		maxWidth: 180,
+		display: "block",
+		margin: "0 auto",
+	},
+	companyTitle: {
+		margin: "0px",
+		fontSize: "18px",
+		color: "#221673",
+	},
+	rightCell: {
+		padding: "0px",
+		verticalAlign: "middle",
+	},
+	personName: {
+		margin: "0px",
+		fontSize: "18px",
+		color: "#0077FF",
+	},
+	topRow: {
+		width: "100%",
+	},
+	linkedInCell: {
+		verticalAlign: "-webkit-baseline-middle",
+	},
+	aTagSocials: {
+		display: "inline-block",
+		padding: "0px",
+		textDecoration: "none",
+	},
+	socialIcon: {
+		width: "20px",
+		display: "block",
+		padding: 0,
+	},
+	personPosition: {
+		margin: "0px",
+		color: "#221673",
+		fontSize: "15px",
+		lineHeight: "22px",
+	},
+	horizontalLine: {
+		width: "100%",
+		borderLeft: "none",
+		display: "block",
+	},
+	verticalLine: {
+		borderLeft: "none",
+		display: "block",
+		position: "relative",
+		height: "100%",
+		width: "40px",
+	},
+	line: {
+		borderLeft: "1px solid rgb(34, 22, 115)",
+		height: "150px",
+		marginLeft: "18px",
+	},
+	emailDomain: {
+		color: "#221673",
+	},
+	alignMiddle: {
+		verticalAlign: "middle",
+	},
+	alignBottom: {
+		verticalAlign: "bottom",
+	},
+	miniIconSpan: {
+		display: "block",
+		width: "10px",
+	},
+	miniIconImg: {
+		width: "13px",
+		display: "block",
+	},
+	linkTag: {
+		textDecoration: "none",
+		color: "#221673",
+		fontSize: "11px",
+	},
+}
