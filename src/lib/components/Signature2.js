@@ -196,7 +196,7 @@ export default function Signature2({
 	)
 }
 
-Signature.propTypes = {
+Signature2.propTypes = {
 	logo: PropTypes.string,
 	linkedIn: PropTypes.string,
 	personName: PropTypes.string,
