@@ -1,6 +1,6 @@
 {
 	"name": "emails-signature-generator",
-	"version": "0.1.8",
+	"version": "0.1.9",
 	"author": "iamshour",
 	"description": "Generate a custom email signature fluently and on the go!",
 	"babel": {
@@ -33,5 +33,8 @@
 	"repository": {
 		"type": "git",
 		"url": "git+https://github.com/iamshour/email-signature-generator.git"
+	},
+	"dependencies": {
+		"prop-types": "^15.8.1"
 	}
 }

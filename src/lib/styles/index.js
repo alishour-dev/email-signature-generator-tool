@@ -102,8 +102,8 @@ export const styles2 = {
 		textAlign: "center",
 	},
 	mainImg: {
-		width: 132,
-		maxWidth: 180,
+		width: 160,
+		maxWidth: 160,
 		display: "block",
 		margin: "0 auto",
 	},

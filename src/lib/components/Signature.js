@@ -1,6 +1,7 @@
 import React from "react"
 import Grid from "./Grid"
 import { styles } from "../styles"
+import PropTypes from "prop-types"
 
 export default function Signature({
 	logo,
@@ -208,4 +209,16 @@ export default function Signature({
 			</Grid>
 		</div>
 	)
+}
+
+Signature.propTypes = {
+	logo: PropTypes.string,
+	facebook: PropTypes.string,
+	instagram: PropTypes.string,
+	linkedIn: PropTypes.string,
+	personName: PropTypes.string,
+	personPosition: PropTypes.string,
+	tel: PropTypes.string,
+	email: PropTypes.string,
+	website: PropTypes.string,
 }
