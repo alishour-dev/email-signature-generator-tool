@@ -26,6 +26,7 @@ There are two main components at this moment, Signature & Signature2 components 
 | ---------------------- | :----------------------------------------------------------------: |
 | logo: String           | https link for an avatar, Logo, or any important image to display. |
 | linkedin: String       |               https link for your linkedin profile.                |
+| skype: String          |                 https link for your skype profile.                 |
 | personName: String     |       Your name, which will be displayed on top (right cell)       |
 | personPosition: String |                   Your current business position                   |
 | tel: String            |                         Your mobile number                         |

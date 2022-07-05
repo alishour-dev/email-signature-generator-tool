@@ -1,4 +1,3 @@
-// INLINE STYLES HERE
 export const styles = {
 	mainStyles: {
 		fontFamily:
@@ -102,8 +101,8 @@ export const styles2 = {
 		textAlign: "center",
 	},
 	mainImg: {
-		width: 160,
-		maxWidth: 160,
+		width: 170,
+		maxWidth: 170,
 		display: "block",
 		margin: "0 auto",
 	},
@@ -124,7 +123,7 @@ export const styles2 = {
 	topRow: {
 		width: "100%",
 	},
-	linkedInCell: {
+	verticalAlign: {
 		verticalAlign: "-webkit-baseline-middle",
 	},
 	aTagSocials: {
