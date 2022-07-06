@@ -1,6 +1,6 @@
 import React from "react"
 import Grid from "./Grid"
-import { styles2 } from "./styles"
+import { styles2 } from "../styles"
 
 export default function Signature2({
 	logo,
