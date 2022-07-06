@@ -1,7 +1,6 @@
 import React from "react"
 import Grid from "./Grid"
-import { styles2 } from "../styles"
-import PropTypes from "prop-types"
+import { styles2 } from "./styles"
 
 export default function Signature2({
 	logo,
@@ -18,21 +17,18 @@ export default function Signature2({
 			style={{
 				...styles2.tableCard,
 				...styles2.mainStyles,
-				padding: "12px",
-				borderRadius: "10px 10px 0 10px",
-				boxShadow: "0px 0px 6px 2px rgba(34, 22, 115, 0.15)",
 			}}>
 			<Grid.Row>
 				<Grid.Cell style={styles2.leftCell}>
 					<Grid style={styles2.leftSubGrid}>
 						<Grid.Row>
-							<Grid.Cell style={styles2.imgCell} width={170}>
+							<Grid.Cell style={styles2.imgCell} width={160}>
 								<a href={website} style={styles2.aTagSocials}>
 									<img
-										width={170}
+										width={160}
 										style={styles2.mainImg}
 										src={logo}
-										alt='Antwerp logo'
+										alt='your logo'
 										role='presentation'
 									/>
 								</a>
@@ -40,22 +36,19 @@ export default function Signature2({
 						</Grid.Row>
 					</Grid>
 				</Grid.Cell>
-
 				<Grid.Cell width='40' style={styles2.verticalLine} color='#221673'>
 					<div style={styles2.line} />
 				</Grid.Cell>
-
 				<Grid.Cell style={styles2.rightCell}>
 					<Grid>
 						<Grid.Row>
-							<Grid.Cell style={styles2.personCell}>
+							<Grid.Cell>
 								<h3 color='#0077FF' style={styles2.personName}>
 									{personName}
 								</h3>
 							</Grid.Cell>
-							<Grid.Cell width='18' />
 							<Grid.Cell style={styles2.verticalAlign}>
-								<a href={linkedIn} style={styles2.aTagSocials}>
+								<a href={linkedIn} style={{ marginRight: "6px", ...styles2.aTagSocials }}>
 									<img
 										src='https://res.cloudinary.com/dniaqkd0y/image/upload/v1656311872/Icons/linkedin_mae6bz.png'
 										alt='LinkedIn'
@@ -63,11 +56,10 @@ export default function Signature2({
 									/>
 								</a>
 							</Grid.Cell>
-							<Grid.Cell width='5' />
 							<Grid.Cell style={styles2.verticalAlign}>
 								<a href={skype} style={styles2.aTagSocials}>
 									<img
-										src='https://res.cloudinary.com/dniaqkd0y/image/upload/v1657012633/Icons/skype-13_akrxgu.png'
+										src='https://res.cloudinary.com/dniaqkd0y/image/upload/v1657093589/Icons/skype_dk1fqm.png'
 										alt='Skype'
 										style={styles2.socialIcon}
 									/>
@@ -78,26 +70,8 @@ export default function Signature2({
 					<p color='#221673' style={styles2.personPosition}>
 						{personPosition}
 					</p>
-
 					<Grid style={{ ...styles2.leftSubGrid, width: "100%" }}>
-						<Grid.Row>
-							<Grid.Cell height='8' />
-						</Grid.Row>
-						<Grid.Row>
-							<Grid.Cell
-								style={styles2.horizontalLine}
-								height='1'
-								color='#221673'
-								direction='horizontal'
-							/>
-						</Grid.Row>
-						<Grid.Row>
-							<Grid.Cell height='8' />
-						</Grid.Row>
-					</Grid>
-
-					<Grid style={{ ...styles2.leftSubGrid, width: "100%" }}>
-						<Grid.Row height='20' style={styles2.alignMiddle}>
+						<Grid.Row height='18' style={styles2.alignMiddle}>
 							<Grid.Cell width='22' style={styles2.alignMiddle}>
 								<Grid style={styles2.leftSubGrid}>
 									<Grid.Row>
@@ -116,12 +90,12 @@ export default function Signature2({
 							<Grid.Cell style={{ padding: 0, color: "rgb(0, 0, 0)" }}>
 								<a href={`tel:${tel}`} color='#000000' style={styles2.linkTag}>
 									<strong>
-										<span>{tel}</span>
+										<span>+{tel}</span>
 									</strong>
 								</a>
 							</Grid.Cell>
 						</Grid.Row>
-						<Grid.Row height='20' style={styles2.alignMiddle}>
+						<Grid.Row height='18' style={styles2.alignMiddle}>
 							<Grid.Cell width='22' style={styles2.alignMiddle}>
 								<Grid style={styles2.leftSubGrid}>
 									<Grid.Row>
@@ -148,7 +122,7 @@ export default function Signature2({
 								</a>
 							</Grid.Cell>
 						</Grid.Row>
-						<Grid.Row height='20' style={styles2.alignMiddle}>
+						<Grid.Row height='18' style={styles2.alignMiddle}>
 							<Grid.Cell width='22' style={styles2.alignMiddle}>
 								<Grid style={styles2.leftSubGrid}>
 									<Grid.Row>
@@ -178,7 +152,7 @@ export default function Signature2({
 								</a>
 							</Grid.Cell>
 						</Grid.Row>
-						<Grid.Row height='20' style={styles2.alignMiddle}>
+						<Grid.Row height='18' style={styles2.alignMiddle}>
 							<Grid.Cell width='22' style={styles2.alignMiddle}>
 								<Grid style={styles2.leftSubGrid}>
 									<Grid.Row>

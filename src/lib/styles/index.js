@@ -101,8 +101,8 @@ export const styles2 = {
 		textAlign: "center",
 	},
 	mainImg: {
-		width: 170,
-		maxWidth: 170,
+		width: 160,
+		maxWidth: 160,
 		display: "block",
 		margin: "0 auto",
 	},
@@ -117,6 +117,7 @@ export const styles2 = {
 	},
 	personName: {
 		margin: "0px",
+		marginRight: "18px",
 		fontSize: "18px",
 		color: "#0077FF",
 	},
@@ -138,9 +139,10 @@ export const styles2 = {
 	},
 	personPosition: {
 		margin: "0px",
+		marginBottom: "12px",
 		color: "#221673",
 		fontSize: "15px",
-		lineHeight: "22px",
+		lineHeight: "20px",
 	},
 	horizontalLine: {
 		width: "100%",
@@ -156,7 +158,7 @@ export const styles2 = {
 	},
 	line: {
 		borderLeft: "1px solid rgb(34, 22, 115)",
-		height: "150px",
+		height: "146px",
 		marginLeft: "18px",
 	},
 	emailDomain: {

@@ -1,6 +1,6 @@
 {
 	"name": "email-signature-generator",
-	"version": "0.2.1",
+	"version": "0.2.2",
 	"author": "iamshour",
 	"description": "Generate a custom email signature fluently and on the go!",
 	"babel": {
