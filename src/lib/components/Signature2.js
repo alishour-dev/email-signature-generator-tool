@@ -1,6 +1,7 @@
 import React from "react"
 import Grid from "./Grid"
 import { styles2 } from "../styles"
+import PropTypes from "prop-types"
 
 export default function Signature2({
 	logo,
