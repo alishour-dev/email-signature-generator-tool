@@ -50,7 +50,7 @@ export default function Signature2({
 								</h3>
 							</Grid.Cell>
 							<Grid.Cell style={styles2.verticalAlign}>
-								<a href={linkedIn} style={{ marginRight: "6px", ...styles2.aTagSocials }}>
+								<a href={linkedIn} style={styles2.aTagSocials}>
 									<img
 										src='https://res.cloudinary.com/dniaqkd0y/image/upload/v1656311872/Icons/linkedin_mae6bz.png'
 										alt='LinkedIn'
@@ -58,6 +58,7 @@ export default function Signature2({
 									/>
 								</a>
 							</Grid.Cell>
+							<Grid.Cell width='6' />
 							<Grid.Cell style={styles2.verticalAlign}>
 								<a href={skype} style={styles2.aTagSocials}>
 									<img
@@ -78,7 +79,7 @@ export default function Signature2({
 								<Grid style={styles2.leftSubGrid}>
 									<Grid.Row>
 										<Grid.Cell
-											style={{ height: 11, display: "inline-block", ...styles2.alignBottom }}>
+											style={{ height: 10, display: "inline-block", ...styles2.alignBottom }}>
 											<img
 												src='https://res.cloudinary.com/dniaqkd0y/image/upload/v1656237146/Icons/tel_vhktpx.png'
 												alt='phone'
@@ -89,7 +90,7 @@ export default function Signature2({
 								</Grid>
 							</Grid.Cell>
 							<Grid.Cell
-								style={{ padding: 0, color: "rgb(0, 0, 0)", display: "inline-block", height: 12 }}>
+								style={{ padding: 0, color: "rgb(0, 0, 0)", display: "inline-block", height: 11 }}>
 								<a href={`tel:${tel}`} color='#000000' style={styles2.linkTag}>
 									<strong>
 										<span>+{tel}</span>
