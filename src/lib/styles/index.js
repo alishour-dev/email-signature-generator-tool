@@ -139,7 +139,7 @@ export const styles2 = {
 	},
 	personPosition: {
 		margin: "0px",
-		marginBottom: "12px",
+		marginBottom: "10px",
 		color: "#221673",
 		fontSize: "15px",
 		lineHeight: "20px",
@@ -170,17 +170,14 @@ export const styles2 = {
 	alignBottom: {
 		verticalAlign: "bottom",
 	},
-	miniIconSpan: {
-		display: "block",
-		width: "10px",
-	},
 	miniIconImg: {
-		width: "13px",
+		width: "14px",
 		display: "block",
 	},
 	linkTag: {
 		textDecoration: "none",
 		color: "#221673",
 		fontSize: "11px",
+		lineHeight: "20px",
 	},
 }

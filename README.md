@@ -22,16 +22,17 @@ There are two main components at this moment, Signature & Signature2 components 
 
 ### Signature2 Component:
 
-| Props                  |                            Description                             |
-| ---------------------- | :----------------------------------------------------------------: |
-| logo: String           | https link for an avatar, Logo, or any important image to display. |
-| linkedin: String       |               https link for your linkedin profile.                |
-| skype: String          |                 https link for your skype profile.                 |
-| personName: String     |       Your name, which will be displayed on top (right cell)       |
-| personPosition: String |                   Your current business position                   |
-| tel: String            |                         Your mobile number                         |
-| email: String          |                         Your email address                         |
-| website: String        |                         Your website link                          |
+| Props                  |                                                                             Description                                                                              |
+| ---------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| logo: String           |                                                  https link for an avatar, Logo, or any important image to display.                                                  |
+| address: Object        | Object containing two properties: {link: https link for your organization's current address, text: text which will appear on the card resembling a readable address} |
+| linkedin: String       |                                                                https link for your linkedin profile.                                                                 |
+| skype: String          |                                                                  https link for your skype profile.                                                                  |
+| personName: String     |                                                        Your name, which will be displayed on top (right cell)                                                        |
+| personPosition: String |                                                                    Your current business position                                                                    |
+| tel: String            |                                                                          Your mobile number                                                                          |
+| email: String          |                                                                          Your email address                                                                          |
+| website: String        |                                                                          Your website link                                                                           |
 
 ## Example:
 
