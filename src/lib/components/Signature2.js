@@ -102,7 +102,7 @@ export default function Signature2({
 								<Grid style={styles2.leftSubGrid}>
 									<Grid.Row>
 										<Grid.Cell
-											style={{ height: 12, display: "inline-block", ...styles2.alignBottom }}>
+											style={{ height: 11, display: "inline-block", ...styles2.alignBottom }}>
 											<img
 												src='https://res.cloudinary.com/dniaqkd0y/image/upload/v1656237838/Icons/email_win1q1.png'
 												alt='email'
