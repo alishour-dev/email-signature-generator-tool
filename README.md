@@ -51,7 +51,12 @@ There are two main components at this moment, Signature & Signature2 components 
 
 	<Signature2
 		logo='https://cdn.worldvectorlogo.com/logos/super-ecran.svg'
+		address={{
+			link: "https://maps.com",
+			text: "My Sreet - City - Country",
+		}}
 		linkedIn='https://linkedin.com'
+		skype='https://skype-profile.com'
 		personName='My Full name'
 		personPosition='My business position'
 		tel='9678975432'

@@ -79,7 +79,7 @@ export default function Signature2({
 								<Grid style={styles2.leftSubGrid}>
 									<Grid.Row>
 										<Grid.Cell
-											style={{ height: 10, display: "inline-block", ...styles2.alignBottom }}>
+											style={{ height: 12, display: "inline-block", ...styles2.alignBottom }}>
 											<img
 												src='https://res.cloudinary.com/dniaqkd0y/image/upload/v1656237146/Icons/tel_vhktpx.png'
 												alt='phone'
@@ -90,7 +90,7 @@ export default function Signature2({
 								</Grid>
 							</Grid.Cell>
 							<Grid.Cell
-								style={{ padding: 0, color: "rgb(0, 0, 0)", display: "inline-block", height: 11 }}>
+								style={{ padding: 0, color: "rgb(0, 0, 0)", display: "inline-block", height: 14 }}>
 								<a href={`tel:${tel}`} color='#000000' style={styles2.linkTag}>
 									<strong>
 										<span>+{tel}</span>
