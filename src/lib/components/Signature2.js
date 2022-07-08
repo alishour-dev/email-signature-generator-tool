@@ -74,12 +74,12 @@ export default function Signature2({
 						{personPosition}
 					</p>
 					<Grid style={styles2.leftSubGrid}>
-						<Grid.Row height='14' style={styles2.alignMiddle}>
+						<Grid.Row height='14' style={{ height: 14, ...styles2.alignMiddle }}>
 							<Grid.Cell width='22' style={styles2.alignMiddle}>
 								<Grid style={styles2.leftSubGrid}>
 									<Grid.Row>
 										<Grid.Cell
-											style={{ height: 12, display: "inline-block", ...styles2.alignBottom }}>
+											style={{ height: 11, display: "inline-block", ...styles2.alignBottom }}>
 											<img
 												src='https://res.cloudinary.com/dniaqkd0y/image/upload/v1656237146/Icons/tel_vhktpx.png'
 												alt='phone'
@@ -90,7 +90,7 @@ export default function Signature2({
 								</Grid>
 							</Grid.Cell>
 							<Grid.Cell
-								style={{ padding: 0, color: "rgb(0, 0, 0)", display: "inline-block", height: 14 }}>
+								style={{ padding: 0, color: "rgb(0, 0, 0)", display: "inline-block", height: 12 }}>
 								<a href={`tel:${tel}`} color='#000000' style={styles2.linkTag}>
 									<strong>
 										<span>+{tel}</span>
@@ -98,7 +98,7 @@ export default function Signature2({
 								</a>
 							</Grid.Cell>
 						</Grid.Row>
-						<Grid.Row height='14' style={styles2.alignMiddle}>
+						<Grid.Row height='14' style={{ height: 14, ...styles2.alignMiddle }}>
 							<Grid.Cell width='22' style={styles2.alignMiddle}>
 								<Grid style={styles2.leftSubGrid}>
 									<Grid.Row>
@@ -125,7 +125,7 @@ export default function Signature2({
 								</a>
 							</Grid.Cell>
 						</Grid.Row>
-						<Grid.Row height='14' style={styles2.alignMiddle}>
+						<Grid.Row height='14' style={{ height: 14, ...styles2.alignMiddle }}>
 							<Grid.Cell width='22' style={styles2.alignMiddle}>
 								<Grid style={styles2.leftSubGrid}>
 									<Grid.Row>
@@ -151,7 +151,7 @@ export default function Signature2({
 								</a>
 							</Grid.Cell>
 						</Grid.Row>
-						<Grid.Row height='14' style={styles2.alignMiddle}>
+						<Grid.Row height='14' style={{ height: 14, ...styles2.alignMiddle }}>
 							<Grid.Cell width='22' style={styles2.alignMiddle}>
 								<Grid style={styles2.leftSubGrid}>
 									<Grid.Row>
