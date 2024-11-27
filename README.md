@@ -1,12 +1,12 @@
-# Email Signature Generator
+# Signature Generator NPM Library
 
 The simplist way to create a custom email signature fluently and on the go, adding up a more professional look and feel to your business emails.
 
-## Component and Props:
+## Component and Props
 
 There are two main components at this moment, Signature & Signature2 components with the following props for each:
 
-### Signature Component:
+### Signature Component
 
 | Props                  |                            Description                             |
 | ---------------------- | :----------------------------------------------------------------: |
@@ -20,7 +20,7 @@ There are two main components at this moment, Signature & Signature2 components 
 | email: String          |                         Your email address                         |
 | website: String        |                         Your website link                          |
 
-### Signature2 Component:
+### Signature2 Component
 
 | Props                  |                                                                             Description                                                                              |
 | ---------------------- | :------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
@@ -34,38 +34,38 @@ There are two main components at this moment, Signature & Signature2 components 
 | email: String          |                                                                          Your email address                                                                          |
 | website: String        |                                                                          Your website link                                                                           |
 
-## Example:
+## Example
 
 ```
-	<Signature
-		logo='https://cdn.worldvectorlogo.com/logos/super-ecran.svg'
-		facebook='https://www.facebook.com'
-		instagram='https://instagram.com'
-		linkedIn='https://linkedin.com'
-		personName='My Full name'
-		personPosition='My business position'
-		tel='9678975432'
-		email='myemaildomainname@domain.com'
-		website='www.mywebsite.com'
-	/>
+ <Signature
+  logo='https://cdn.worldvectorlogo.com/logos/super-ecran.svg'
+  facebook='https://www.facebook.com'
+  instagram='https://instagram.com'
+  linkedIn='https://linkedin.com'
+  personName='My Full name'
+  personPosition='My business position'
+  tel='9678975432'
+  email='myemaildomainname@domain.com'
+  website='www.mywebsite.com'
+ />
 
-	<Signature2
-		logo='https://cdn.worldvectorlogo.com/logos/super-ecran.svg'
-		address={{
-			link: "https://maps.com",
-			text: "My Sreet - City - Country",
-		}}
-		linkedIn='https://linkedin.com'
-		skype='https://skype-profile.com'
-		personName='My Full name'
-		personPosition='My business position'
-		tel='9678975432'
-		email='myemaildomainname@domain.com'
-		website='www.mywebsite.com'
-	/>
+ <Signature2
+  logo='https://cdn.worldvectorlogo.com/logos/super-ecran.svg'
+  address={{
+   link: "https://maps.com",
+   text: "My Sreet - City - Country",
+  }}
+  linkedIn='https://linkedin.com'
+  skype='https://skype-profile.com'
+  personName='My Full name'
+  personPosition='My business position'
+  tel='9678975432'
+  email='myemaildomainname@domain.com'
+  website='www.mywebsite.com'
+ />
 ```
 
-## For collaboration:
+## For collaboration
 
 You can collaborate, edit and customize this package by clonning the app, and starting it locally on your machine.
 
